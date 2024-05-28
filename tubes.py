@@ -1,14 +1,14 @@
 daftar_buku = {
-  "Kita Bersama" :
-  "Sabi : Santai di Bali" :
-  "Evaluasi" :
-  "Padahal Kita Sama" :
-  "Kenapa Harus Setara?" :
-  "Dirimu Diriku Diriku Dirimu" :
-  "Secukupnya Saja" :
-  "Pernah Ada di Sampingku" :
-  "Nyata Namun Nyatanya Tiada" :
-  "Kenapa Hasur di Paksa?"
+  "Kita Bersama" : "00001"
+  "Sabi : Santai di Bali" :"00002"
+  "Evaluasi" :"00003"
+  "Padahal Kita Sama" :"00004"
+  "Kenapa Harus Setara?" :"00005"
+  "Dirimu Diriku Diriku Dirimu" :"00006"
+  "Secukupnya Saja" :"00007"
+  "Pernah Ada di Sampingku" :"00008"
+  "Nyata Namun Nyatanya Tiada" :"00009"
+  "Kenapa Hasur di Paksa?" :"00010"
   "Palsu"
   "Semuanya Sama Saja"
   "Terhalang Jarak"
