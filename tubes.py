@@ -8,3 +8,14 @@ daftar_buku = {
   "Secukupnya Saja" :
   "Pernah Ada di Sampingku" :
   "Nyata Namun Nyatanya Tiada" :
+  "Kenapa Hasur di Paksa?"
+  "Palsu"
+  "Semuanya Sama Saja"
+  "Terhalang Jarak"
+  "Memotivasi"
+  "lebih Dekat"
+  "Setia"
+  "Dulu Sangat Indah"
+  "Menjadi Dewasa"
+  "Aku Sekarang Karena Aku Yang Dulu"
+  "Kamu Telah Berubah"
