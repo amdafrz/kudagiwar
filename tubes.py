@@ -24,4 +24,8 @@ daftar_buku = {
 def cari_buku():
   nama_user = input("Masukan nama kamu: ")
   print("halo", nama_user + ", buku apa yang kamu cari hari ini ?")
+  for nama_buku, kode in daftar_buku.item():
+    print(f"- Judul Buku : {nama_buku} - Kode Buku : {kode}")
+    
+  
   
