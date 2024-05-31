@@ -26,6 +26,18 @@ def cari_buku():
   print("halo", nama_user + ", buku apa yang kamu cari hari ini ?")
   for nama_buku, kode in daftar_buku.item():
     print(f"- Judul Buku : {nama_buku} - Kode Buku : {kode}")
-    
+  while True : 
+    input_user = input("Ketik judul atau kode buku disini : ")
+    if input_user in daftar_buku:
+      print("Juduk Buku yang kamu cari:", input_user + ", dengan Kode:", daftar_buku[inout_user])
+      break
+    elif input_user in daftar_buku.values():
+      nama_buku = [nama for nama, kode in daftar_buku.items() if kode == input_user[0]
+      print("Judul buku yang kamu cari:" nama_buku + ", dengan Kode:", input_user)
+      break
+    else:
+      print("Tidak ada hasil!, ketik nama buku atau kode buku dengan benar.")
+  cari_buku()
+      
   
   
