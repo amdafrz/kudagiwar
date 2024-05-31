@@ -29,7 +29,7 @@ def cari_buku():
   while True : 
     input_user = input("Ketik judul atau kode buku disini : ")
     if input_user in daftar_buku:
-       print("Juduk Buku yang kamu cari:", input_user + ", dengan Kode:", daftar_buku[input_user])
+       print("Judul Buku yang kamu cari:", input_user + ", dengan Kode:", daftar_buku[input_user])
        break
     elif input_user in daftar_buku.values():
        nama_buku = [nama for nama, kode in daftar_buku.items() if kode == input_user][0]
