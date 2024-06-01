@@ -45,8 +45,11 @@ kode_buku = [
 ]
 
 def cari_buku():
-  nama_user = input("Masukan nama kamu: ")
-  print("halo", nama_user + ", buku apa yang kamu cari hari ini ?")
+    print("============ Selamat Datang di Perpustakaan Kuda Giwar =============")
+    nama_user = input("Masukkan nama kamu: ")
+    print("====================================================================")
+    print("Hallo", nama_user + ", buku apa yang kamu cari hari ini ?")
+    print("====================================================================")
   for judul,kode in zip(judul_buku, kode_buku):
       print(f"- Judul Buku : {judul.ljust(33)} - Kode Buku : {kode}")
   while True:
