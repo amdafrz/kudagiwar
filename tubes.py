@@ -37,8 +37,8 @@ kode_buku = [
 def cari_buku():
   nama_user = input("Masukan nama kamu: ")
   print("halo", nama_user + ", buku apa yang kamu cari hari ini ?")
-  for nama_buku, kode in daftar_buku.items():
-       print(f"- Judul Buku : {nama_buku.ljust(33)} - Kode Buku : {kode}")
+  for judul,kode in zip(judul_buku, kode_buku):
+      print(f"- Judul Buku : {judul.ljust(33)} - Kode Buku : {Kode}")
   while True : 
     input_user = input("Ketik judul atau kode buku disini : ")
     if input_user in daftar_buku:
