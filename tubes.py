@@ -1,4 +1,4 @@
-daftar_buku = {
+judul_buku = [
   "Kita Bersama",
   "Sabi : Santai di Bali",
   "Evaluasi",
@@ -9,17 +9,17 @@ daftar_buku = {
   "Pernah Ada di Sampingku",
   "Nyata Namun Nyatanya Tiada",
   "Kenapa Hasur di Paksa?",
-  "Palsu" : "00011",
-  "Semuanya Sama Saja" : "00012",
-  "Terhalang Jarak" : "00013",
-  "Memotivasi" : "00014",
-  "lebih Dekat" : "00015",
-  "Setia" : "00016",
-  "Dulu Sangat Indah" : "00017",
-  "Menjadi Dewasa" : "00018",
-  "Aku Sekarang Karena Aku Yang Dulu" : "00019",
-  "Kamu Telah Berubah" : "00020"
-} 
+  "Palsu",
+  "Semuanya Sama Saja",
+  "Terhalang Jarak",
+  "Memotivasi",
+  "lebih Dekat",
+  "Setia",
+  "Dulu Sangat Indah",
+  "Menjadi Dewasa",
+  "Aku Sekarang Karena Aku Yang Dulu",
+  "Kamu Telah Berubah"
+]
 
 kode_buku = [
   "00001",
@@ -48,7 +48,7 @@ def cari_buku():
   nama_user = input("Masukan nama kamu: ")
   print("halo", nama_user + ", buku apa yang kamu cari hari ini ?")
   for judul,kode in zip(judul_buku, kode_buku):
-      print(f"- Judul Buku : {judul.ljust(33)} - Kode Buku : {Kode}")
+      print(f"- Judul Buku : {judul.ljust(33)} - Kode Buku : {kode}")
   while True:
         print("====================================================================")
         input_user = input("Ketik Judul atau Kode Buku disini: ")
