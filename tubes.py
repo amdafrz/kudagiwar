@@ -50,21 +50,21 @@ def cari_buku():
   for judul,kode in zip(judul_buku, kode_buku):
       print(f"- Judul Buku : {judul.ljust(33)} - Kode Buku : {kode}")
   while True:
+      print("====================================================================")
+      input_user = input("Ketik Judul atau Kode Buku disini: ")
+      print("====================================================================")
+      if input_user in judul_buku:
+        kode = kode_buku[judul_buku.index(input_user)]
+        print("Judul Buku yang kamu cari:", input_user + ", dengan Kode :", kode)
         print("====================================================================")
-        input_user = input("Ketik Judul atau Kode Buku disini: ")
+        break
+      elif input_user in kode_buku:
+        judul = judul_buku[kode_buku.index(input_user)]
+        print("Judul Buku yang kamu cari:", judul + ", dengan Kode:", input_user)
         print("====================================================================")
-        if input_user in judul_buku:
-            kode = kode_buku[judul_buku.index(input_user)]
-            print("Judul Buku yang kamu cari:", input_user + ", dengan Kode :", kode)
-            print("====================================================================")
-            break
-        elif input_user in kode_buku:
-            judul = judul_buku[kode_buku.index(input_user)]
-            print("Judul Buku yang kamu cari:", judul + ", dengan Kode:", input_user)
-            print("====================================================================")
-            break
-        else:
-            print("Tidak ada hasil, Ketik nama atau kode buku dengan benar.")
+        break
+      else:
+        print("Tidak ada hasil, Ketik nama atau kode buku dengan benar.")
 cari_buku()
       
   
