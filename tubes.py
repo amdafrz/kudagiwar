@@ -1,14 +1,14 @@
 daftar_buku = {
-  "Kita Bersama" : "00001",
-  "Sabi : Santai di Bali" :"00002",
-  "Evaluasi" :"00003",
-  "Padahal Kita Sama" :"00004",
-  "Kenapa Harus Setara?" :"00005",
-  "Dirimu Diriku Diriku Dirimu" :"00006",
-  "Secukupnya Saja" :"00007",
-  "Pernah Ada di Sampingku" :"00008",
-  "Nyata Namun Nyatanya Tiada" :"00009",
-  "Kenapa Hasur di Paksa?" :"00010",
+  "Kita Bersama",
+  "Sabi : Santai di Bali",
+  "Evaluasi",
+  "Padahal Kita Sama",
+  "Kenapa Harus Setara?",
+  "Dirimu Diriku Diriku Dirimu",
+  "Secukupnya Saja",
+  "Pernah Ada di Sampingku",
+  "Nyata Namun Nyatanya Tiada",
+  "Kenapa Hasur di Paksa?",
   "Palsu" : "00011",
   "Semuanya Sama Saja" : "00012",
   "Terhalang Jarak" : "00013",
@@ -20,6 +20,18 @@ daftar_buku = {
   "Aku Sekarang Karena Aku Yang Dulu" : "00019",
   "Kamu Telah Berubah" : "00020"
 } 
+
+Kode_buku = [
+  "00001",
+  "00002",
+  "00003",
+  "00004",
+  "00005",
+  "00006",
+  "00007",
+  "00008",
+  "00009",
+  "00010",
 
 def cari_buku():
   nama_user = input("Masukan nama kamu: ")
