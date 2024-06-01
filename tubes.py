@@ -50,9 +50,9 @@ def cari_buku():
     print("====================================================================")
     print("Hallo", nama_user + ", buku apa yang kamu cari hari ini ?")
     print("====================================================================")
-  for judul,kode in zip(judul_buku, kode_buku):
+    for judul,kode in zip(judul_buku, kode_buku):
       print(f"- Judul Buku : {judul.ljust(33)} - Kode Buku : {kode}")
-  while True:
+    while True:
       print("====================================================================")
       input_user = input("Ketik Judul atau Kode Buku disini: ")
       print("====================================================================")
