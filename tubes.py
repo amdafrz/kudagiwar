@@ -21,7 +21,7 @@ daftar_buku = {
   "Kamu Telah Berubah" : "00020"
 } 
 
-Kode_buku = [
+kode_buku = [
   "00001",
   "00002",
   "00003",
@@ -32,6 +32,7 @@ Kode_buku = [
   "00008",
   "00009",
   "00010",
+]
 
 def cari_buku():
   nama_user = input("Masukan nama kamu: ")
